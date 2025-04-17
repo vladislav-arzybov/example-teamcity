@@ -43,6 +43,7 @@ object Build : BuildType({
 
     steps {
         maven {
+            name = "mvn clean deploy"
             id = "Maven2"
 
             conditions {
