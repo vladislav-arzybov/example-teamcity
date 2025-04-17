@@ -54,7 +54,7 @@ object Build : BuildType({
             userSettingsSelection = "settings.xml"
         }
         maven {
-            name = "New build step"
+            name = "mvn clean test"
             id = "Maven2_1"
 
             conditions {
